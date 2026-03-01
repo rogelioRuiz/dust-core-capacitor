@@ -1,0 +1,11 @@
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
+
+apply from: 'capacitor.settings.gradle'
+
+include ':capacitor-serve'
+project(':capacitor-serve').projectDir = new File('../../../../capacitor-serve/android')
+
+include ':dust-serve-kotlin'
+project(':dust-serve-kotlin').projectDir = new File('../../../../dust-serve-kotlin')
