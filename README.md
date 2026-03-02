@@ -14,8 +14,9 @@
 <p align="center">
   <a href="https://github.com/rogelioRuiz/dust/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg"></a>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-informational">
-  <img alt="npm" src="https://img.shields.io/badge/npm-%40dust%2Fcapacitor--core-cb3837">
+  <img alt="npm" src="https://img.shields.io/badge/npm-dust--core--capacitor-cb3837">
   <img alt="Capacitor" src="https://img.shields.io/badge/Capacitor-7%20%7C%208-119EFF">
+  <a href="https://github.com/rogelioRuiz/dust-core-capacitor/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/rogelioRuiz/dust-core-capacitor/actions/workflows/ci.yml/badge.svg?branch=main"></a>
 </p>
 
 ---
@@ -311,14 +312,14 @@ xcodebuild test -scheme DustCapacitorLlm \
 ## JS API
 
 ```typescript
-import { Core } from '@dust/capacitor-core';
+import { Core } from 'dust-core-capacitor';
 import type {
   ModelServer, ModelSession, ModelDescriptor,
   VectorStore, EmbeddingService,
   ModelFormat, SessionPriority, ModelStatus, DustCoreError,
   DustInputTensor, DustOutputTensor, VectorSearchResult,
-} from '@dust/capacitor-core';
-import { DustCoreRegistry } from '@dust/capacitor-core';
+} from 'dust-core-capacitor';
+import { DustCoreRegistry } from 'dust-core-capacitor';
 
 // Get contract version
 const { version } = await Core.getContractVersion();
