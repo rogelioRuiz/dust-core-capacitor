@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "DustCapacitorCore",
+    name: "DustCoreCapacitor",
     platforms: [.iOS(.v14), .macOS(.v14)],
     products: [
         .library(
-            name: "DustCapacitorCore",
+            name: "DustCoreCapacitor",
             targets: ["CorePlugin"]
         )
     ],
