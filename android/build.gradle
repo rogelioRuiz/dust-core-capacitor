@@ -27,6 +27,6 @@ kotlin {
 
 dependencies {
     implementation project(':capacitor-android')
-    api 'io.t6x.dust:dust-core-kotlin:0.1.0'
+    api 'io.t6x.dust:dust-core-kotlin:0.1.1'
     testImplementation "junit:junit:$junitVersion"
 }

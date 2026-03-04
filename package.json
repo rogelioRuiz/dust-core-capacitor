@@ -1,6 +1,6 @@
 {
   "name": "dust-core-capacitor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ML contract library for Capacitor — protocols, interfaces, and shared value types for on-device ML plugins.",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
