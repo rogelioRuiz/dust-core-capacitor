@@ -30,7 +30,7 @@ export type ModelStatus =
   | { kind: 'downloading'; progress: number }
   | { kind: 'verifying' }
   | { kind: 'loading' }
-  | { kind: 'ready' }
+  | { kind: 'ready'; path?: string }
   | { kind: 'failed'; error: DustCoreError }
   | { kind: 'unloading' }
 
