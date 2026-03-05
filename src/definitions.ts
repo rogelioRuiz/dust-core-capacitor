@@ -5,6 +5,7 @@ export const ModelFormat = {
   CoreML: 'coreml',
   TFLite: 'tflite',
   GGUF: 'gguf',
+  MLX: 'mlx',
   Custom: 'custom',
 } as const
 export type ModelFormat = (typeof ModelFormat)[keyof typeof ModelFormat]
